@@ -80,5 +80,5 @@ tidydata<-
             summarise_each(funs(mean))
     )
 
-write.table(tidydata, './TidyData.txt')
+write.table(tidydata, './TidyData.txt', row.name=FALSE)
 
